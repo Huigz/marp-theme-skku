@@ -4,15 +4,17 @@ This is a SKKU(성균관대학과) Style Marp theme
 
 ### Prtscn
 
-![p1](image.png)
+![p1](https://github.com/Huigz/marp-theme-skku/blob/main/image.png)
 
-![p2](image(1).png)
+![p2](https://github.com/Huigz/marp-theme-skku/blob/main/image(1).png)
 
-![p3](image(2).png)
+![p3](https://github.com/Huigz/marp-theme-skku/blob/main/image(2).png)
 
-![p4](image(3).png)
+![p4](https://github.com/Huigz/marp-theme-skku/blob/main/image(3).png)
 
-![p5](image(4).png)
+![p5](https://github.com/Huigz/marp-theme-skku/blob/main/image(4).png)
+
+
 
 ### 특성
 
