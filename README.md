@@ -2,6 +2,14 @@
 
 This is a SKKU(성균관대학과) Style Marp theme
 
+### Prtscn
+
+![p1](image .png)
+![p1](image (1).png)
+![p1](image (2).png)
+![p1](image (3).png)
+![p1](image (4).png)
+
 ### 특성
 
 - 환영페이지에서 학교로고 자동 기입 
