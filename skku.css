@@ -1,0 +1,149 @@
+/* @theme skku */
+
+@import 'gaia';
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Sans+KR:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+:root {
+  --color-background: #fff;
+  --color-foreground: #333;
+  --color-highlight: rgb(141,198,63);
+}
+
+section {
+  background-image: none;
+  font-family: 'Gowun Dodum', sans-serif;
+  padding-top: 90px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+
+/* https://github.com/marp-team/marpit/issues/271 */
+section::after {
+  font-weight: 700;
+  content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+}
+
+ul ul {
+  font-size: 0.9em;
+}
+section.lead {
+  font-family: 'Gowun Dodum', sans-serif;
+  padding-left: 40px;
+  padding-right: 48px;
+}
+
+
+
+section.lead h1 {
+  color: rgb(43,102,83);
+  text-align: left;
+  background-image: url("skku_logo.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 110px;
+  padding-left: 110px;
+}
+section.lead h1 strong {
+  -webkit-text-stroke: 1px rgb(43,102,83);;
+}
+section.lead h2 {
+  color: rgb(43,102,83);;
+  text-align: left;
+  padding-left: 110px;
+}
+section.lead h2 strong {
+  -webkit-text-stroke: 1px rgb(43,102,83);;
+}
+section.lead h3 {
+  color: rgb(43,102,83);;
+  text-align: left;
+  padding-left: 110px;
+}
+section.lead h3 strong {
+  -webkit-text-stroke: 1px rgb(43,102,83);;
+}
+section.lead h4 {
+  color: rgb(43,102,83);;
+  text-align: left;
+  padding-left: 110px;
+}
+section.lead h4 strong {
+  -webkit-text-stroke: 1px rgb(43,102,83);;
+}
+section.lead h5 {
+  color: rgb(43,102,83);;
+  text-align: left;
+  padding-left: 110px;
+}
+section.lead h5 strong {
+  -webkit-text-stroke: 1px rgb(43,102,83);;
+}
+section.lead p {
+  text-align: right;
+  font-size: 30px;
+}
+section p{
+  font-size: 27px;
+}
+
+
+section.cont {
+  padding-top: 150px;
+}
+
+section.cont p{
+  font-size: 29px;
+}
+
+section.cont pag{
+  color: rgb(7,42,96);
+  font-size: 20px;
+  -webkit-text-stroke: 0px;
+}
+
+section.cont p{
+  -webkit-text-stroke: 0.2px;
+}
+
+section.end h1, section.end h2, section.end h3, section.end h4{
+  text-align: center;
+  color: rgb(43,102,83);
+}
+section.end p{
+  text-align: center;
+}
+
+header {
+  background-color: rgb(43,102,83);
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  
+}
+
+blockquote {
+  max-width: 90%;
+  border-top: 0.1em dashed #555;
+  font-size: 60%;
+  position: absolute;
+  bottom: 20px;
+}
+blockquote::before {
+  content: "";
+}
+blockquote::after {
+  content: "";
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+}
