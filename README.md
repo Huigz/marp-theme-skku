@@ -1,6 +1,6 @@
 ### About This Marp Theme
 
-This is a SKKU(성균관대학과) Style Marp theme
+This is a SKKU(성균관대학교) Style Marp theme
 
 ### Prtscn
 
